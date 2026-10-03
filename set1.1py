@@ -1,0 +1,47 @@
+
+# accept two numbers from the user and print their sum
+a=int(input("enter- first number:"))
+b=int(input("enter second number:"))
+sum=a+b
+print(sum)
+# create variables of type int, float,str,bool and display their data type using type() 
+a=10
+b=12.5
+c="radha"
+d=True
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+# create three variables with one statement and print them
+a,b,c=10,50,90
+print(a)
+print(b)
+print(c)
+# assign the same value to three variables and verify the result
+a=10
+b=10
+c=10
+# or
+a=b=c=10
+print(a)
+print(b)
+print(c)
+# delete a variable using del and observe th error when trying to access it
+a="vandna"
+print(a)
+del a
+print(a)
+# write a program to input your age and print: you are<age> years old
+a=int(input("enter your age:"))
+print("you are ",a,"years old")
+# wap to input firsr name and last name seperately and display the full name in aa single line
+a=input("enter first name:")
+b=input("enter last name:")
+# c=a+b
+print(a,b)
+# wap to input an employee's name and monthly salary,then display the annual salary
+a=input("enter employee's name:")
+b=int(input("enter montly salary:"))
+annual_salary=b*12
+print(annual_salary)
